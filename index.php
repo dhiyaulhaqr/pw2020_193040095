@@ -22,7 +22,9 @@
      border: 20;
      height:10; 
      width:20;
-
+    }
+    h3{
+      text-align: top;
     }
   </style>
 
@@ -38,7 +40,6 @@
           <ul class="right hide-on-med-and-down">
             <li><a href="#">Home</a></li>
             <li><a href="#profile">Profile</a></li>
-            <li><a href="#kuliah">Kuliah</a></li>
             <li><a href="#praktikum">Praktikum</a> </li>
             <li><a href="#tubes">Tugas Besar</a> </li>
           </ul>
@@ -52,12 +53,11 @@
   <div class="slider">
     <ul class="slides">
       <li>
-        <img src="poto.jpg"> 
+        <img src="tubes/assets/img/poto.jpg"> 
         <div class="caption center-align">
           <h3>Selamat Datang</h3>
           <h6>Halaman ini menampilkan</h6>
           <h5 class="light grey-text text-lighten-3">Profile</h5>
-          <h5 class="light grey-text text-lighten-3">Tugas Kuliah</h5>
           <h5 class="light grey-text text-lighten-3">Tugas Praktikum</h5>
           <h5 class="light grey-text text-lighten-3">Tugas Besar</h5>
         </div>
@@ -69,14 +69,14 @@
   <!-- profile -->
   <section id="profile" class="profile scrollspy"><br><br>
       <div class="parallax-container scrollspy">
-        <div class="parallax"><img src="awan.jpg"></div>
+        <div class="parallax"><img src="tubes/assets/img/awan.jpg"></div>
           <h3 class="light grey-text text-darken-2 center">Profile</h3>
           <div class="row">
             <div class="col s12 m8 offset-m2 l6 offset-l3">
               <div class="card-panel grey lighten-5 z-depth-1">
                 <div class="row valign-wrapper">
                   <div class="col s4">
-                  <img src="aku.jpg" alt="" height="200" sizes="200"> <!-- notice the "circle" class -->
+                  <img src="tubes/assets/img/aku.jpg" alt="" height="200" sizes="200"> <!-- notice the "circle" class -->
                   </div>
                   <div class="col s10">
               <span class="black-text">
@@ -94,38 +94,11 @@
   </section>
   <!-- akhir profile -->
 
-  <!-- kuliah -->
-  <section id="kuliah" class="kuliah scrollspy"><br><br>
-      <div class="parallax-container scrollspy">
-    <div class="container">
-      <h3 class="light center grey-text text-darken-3">Kuliah</h3>
-      <table>
-        <tr>
-          <td style="background-color:steelblue; color:white;">Repositories</td>
-        <tr>
-          <td>Pertemuan 9</td>
-        </tr>
-        <tr>
-          <td>Pertemuan 10</td>
-        </tr>
-        <tr>
-          <td>Pertemuan 11</td>
-        </tr>
-        <tr>
-          <td>Pertemuan 12</td>
-        </tr>
-        <tr>
-          <td>Pertemuan 13</td>
-        </tr>
-      </table>
-    </div>
-  </section>
-  <!-- akhir kuliah -->
 
   <!-- praktikum -->
   <section id="praktikum" class="praktikum scrollspy"><br><br>
       <div class="parallax-container scrollspy">
-        <div class="parallax"><img src="awan.jpg"></div>
+        <div class="parallax"><img src="tubes/assets/img/awan.jpg"></div>
           <h3 class="light grey-text text-darken-2 center">Praktikum</h3>
           <h6 class="light grey-text text-darken-2 center"><b>Username:</b> dhiya <b>Password:</b> admin</h6>
           <table>
